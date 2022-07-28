@@ -207,33 +207,36 @@
     </section>
     <!-- section-2 end -->
     <!-- section-3 start -->
-    <section class="container py-5" id="success">
-        <div class="container d-sm-flex align-items-center">
-            <div>
+    <section class="container py-5" id="explore">
+        <div class="container d-md-flex align-items-center">
+            <div class="col-12 col-md-5">
                 <img class="img-fluid" src="images/working.png" alt="">
             </div>
-            <div class="w-50 p-5">
+            <div class="col-12 col-md-7 p-5">
                 <h2 class="fw-bold fs-2">Explore the e-learning Institute</h2>
                 <p>
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                    alteration in some form, by injected humour, or randomised words which <span class="">don't look
+                        even
+                        slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
 
-                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                    tend to repeat predefined.
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet
+                        tend to repeat predefined.</span>
                 </p>
                 <div class="row g-3 mt-4">
-                    <div class="col-4">
+                    <div class="col-6 col-lg-4">
                         <p class="fs-2 fw-bold m-0">3.2K+</p>
-                        <p>Online Course</p>
+                        <p class="text-secondary">Online Course</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-lg-4">
                         <p class="fs-2 fw-bold m-0">600+</p>
-                        <p>Expert Member</p>
+                        <p class="text-secondary">Expert Member</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-lg-4">
                         <p class="fs-2 fw-bold m-0">1K+</p>
-                        <p>Rating & Reviews</p>
+                        <p class="text-secondary">Rating & Reviews</p>
                     </div>
                 </div>
                 <a class="btn text-white fw-semibold bg-primary px-4 m-auto my-4">Read More</a>
@@ -245,21 +248,116 @@
     <section class="container py-5">
         <div class="container">
             <div class="bg-primary rounded-1 p-5 row align-items-center">
-                <div class="col-sm-6 col-12 text-center text-sm-start">
+                <div class="col-lg-6 col-12 text-center text-lg-start">
                     <h2 class="text-white fw-bold">Ready to join?</h2>
                     <p class="text-white">It is a long established fact that a reader will be distracted by the readable
                         content of a page when looking at its layout.</p>
                 </div>
-                <div class="col-sm-6 col-12 text-center text-sm-end">
-                    <button class="btn rounded-1 text-primary fw-semibold bg-white px-4 my-4 my-sm-0">Register
+                <div class="col-lg-6 col-12 text-center text-lg-end">
+
+                    <!-- modal start -->
+                    <button type="button" class="btn rounded-1 text-primary fw-semibold bg-white px-4 my-4 my-sm-0"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register
                         Now</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Message:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal end-->
+
                 </div>
             </div>
         </div>
 
     </section>
     <!-- Section Four(Bonus) end -->
+    <!-- successful students start -->
+    <section class="container py-5">
+        <div class="container row">
+            <div class="col-12 col-sm-5 text-center text-sm-start">
+                <h2 class="fw-bold">Meet Our Successful Students</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div>
+                        <div>
+                            <img class="img-fluid" src="images/student/student-1.png" alt="">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="fw-bold text-secondary m-0">Awlad Hossain</h5>
+                            <p class="text-secondary m-0">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div>
+                        <div>
+                            <img class="img-fluid" src="images/student/student-2.png" alt="">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="fw-bold text-secondary m-0">Awlad Hossain</h5>
+                            <p class="text-secondary m-0">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div>
+                        <div>
+                            <img class="img-fluid" src="images/student/student-3.png" alt="">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="fw-bold text-secondary m-0">Awlad Hossain</h5>
+                            <p class="text-secondary m-0">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div>
+                        <div>
+                            <img class="img-fluid" src="images/student/student-4.png" alt="">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="fw-bold text-secondary m-0">Awlad Hossain</h5>
+                            <p class="text-secondary m-0">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <divc class="text-center">
+                <a class="btn text-white fw-semibold bg-primary px-4 m-auto my-4">View All</a>
+        </div>
+        </div>
 
+    </section>
+    <!-- successful students end -->
 
 
 
